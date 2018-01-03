@@ -14,7 +14,7 @@ if($true == "Wallet"){
 $i = curl("https://www.thebestbitcoinfaucet.com/","",0,1,'','',0,'','',$cookie,0);
 $i = curl("https://www.thebestbitcoinfaucet.com/","faucetclaim={$17uE9thFWV4bDYKof9zNHhZ9q2Eef2cQn3}",0,1,'','',0,'','',$cookie,0);
 echo "Minning Success. (WARNING! RELOAD 60s for work's)";
-} else {
+else {
 echo"LOGIN #".rand(1,3);
 }
 function get_between($string, $start, $end) {
