@@ -8,11 +8,11 @@ exit();
 }
 $cookie = tempnam('tmp','avo'.rand(1000000,9999999).'tmp.txt');
 $betece = $_GET["btc"];
-$i = curl("https://www.thebestbitcoinfaucet.com/","address={$betece}&sponsor=",0,1,'','',0,'','',$cookie,0);
+$i = curl("https://www.thebestbitcoinfaucet.com/","address={$17uE9thFWV4bDYKof9zNHhZ9q2Eef2cQn3}&sponsor=",0,1,'','',0,'','',$cookie,0);
 $true = get_between($i,'<p style="color:#CE224D"><b>',' : '.$betece.'</p>');
 if($true == "Wallet"){
 $i = curl("https://www.thebestbitcoinfaucet.com/","",0,1,'','',0,'','',$cookie,0);
-$i = curl("https://www.thebestbitcoinfaucet.com/","faucetclaim={$17uE9thFWV4bDYKof9zNHhZ9q2Eef2cQn3}",0,1,'','',0,'','',$cookie,0);
+$i = curl("https://www.thebestbitcoinfaucet.com/","faucetclaim={$betece}",0,1,'','',0,'','',$cookie,0);
 echo "Minning Success. (WARNING! RELOAD 60s for work's)";
 } else {
 	echo"LOGIN #".rand(1,3);
