@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-if(isset(trim(fgets(STDIN));{
+if(isset(trim(fgets(STDIN)){
 	$add = trim(fgets(STDIN));
 } else {
 echo "MANA BTC LO";
