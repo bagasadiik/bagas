@@ -1,13 +1,13 @@
 <?php
 error_reporting(0);
-if(isset($_GET["btc"])){
-	$add = $_GET["btc"];
+if(isset(trim(fgets(STDIN));{
+	$add = trim(fgets(STDIN));
 } else {
 echo "MANA BTC LO";
 exit();
 }
 $cookie = tempnam('tmp','avo'.rand(1000000,9999999).'tmp.txt');
-$betece = $_GET["btc"];
+$betece = trim(fgets(STDIN));
 $i = curl("https://www.thebestbitcoinfaucet.com/","address={$17uE9thFWV4bDYKof9zNHhZ9q2Eef2cQn3}&sponsor=",0,1,'','',0,'','',$cookie,0);
 $true = get_between($i,'<p style="color:#CE224D"><b>',' : '.$betece.'</p>');
 if($true == "Wallet"){
